@@ -23,7 +23,11 @@
     padding-left: 30px;
     font-size: 24px;
 }
+#allquestions{
 
+	font-size: 20px;
+	
+}
 .vl {
     border-left: 1px solid gray;
     height: 500px;
@@ -38,14 +42,19 @@
   article {
     float: left;
     padding: 20px;
-    width: 60%;
+    width: 80%;
     height: 500px; 
   }
-  
+  th{color: red;}
   section:after {
     content: "";
     display: table;
     clear: both;
+  }
+  td{
+padding-top: 20px;
+
+
   }
   
   footer {
@@ -68,7 +77,22 @@
   
 
 }
+tr:nth-child(even){background-color: #f2f2f2}
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
 #h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 100px;
+    
+}
+#h2{
     text-align: center;
     font-weight: bold;
     font-size: 20px;
@@ -124,19 +148,26 @@ input[type=text], input[type=password] {
     padding: 16px;
     
   }
+  #quizbtn{
+  	padding-right: 20px;
+
+  	float:right;
+
+  	
+  }
 #loginlink a:{
     text-decoration: none;
 }
 .mainbar{
-    width:80%;
+    width:100%;
     float:right;
     padding:0;
 }
 .sidebar{
 
-    width:19%;
+    width:15%;
     float: left;
-    height:500px;
+    height:700px;
 }
 .linebar{
 
