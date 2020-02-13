@@ -3,11 +3,11 @@ This is a front end project for a platform where people can ask questions,answer
 <b>Modules</b>
 <ol>
   <li>sign up</li>  
-login.html  
-postQuestions  
-postAnswers  
-deletequestions  
-Upvote and Downvote an answer  
+<li>login</li>    
+<li>postQuestions</li>    
+<li>postAnswers</li>    
+<li>deletequestions</li>    
+<li>Upvote and Downvote an answer</li>    
   </ol>
 
 
